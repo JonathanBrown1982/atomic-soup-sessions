@@ -9,7 +9,7 @@
  * into CONFIG.API in index.html.
  */
 
-var NOTIFY_EMAIL = "jonathan.brown@mccann.com";
+var NOTIFY_EMAIL = "jonathan.brown@omc.com";
 var EMAIL_ON = { host: true, nominate: true, contribute: false }; // flip to taste
 var SHEET_NAME = "Events";
 var HEADERS = ["timestamp","action","sessionId","name","topic","nomId","title","date"];
