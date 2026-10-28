@@ -61,6 +61,13 @@ a{color:var(--blue-b)}
 .tag.lead{color:var(--navy);background:var(--yellow);transform:rotate(-2deg)}
 .tag.locked{color:#cfe0f0;background:rgba(255,255,255,.1);border:1px solid var(--line)}
 .note.g{border-color:var(--green)}
+.intro{margin:26px 0 6px;background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--yellow);border-radius:16px;padding:20px 22px}
+.intro h2{margin:0 0 8px;font-size:20px;font-weight:800;letter-spacing:-.02em;color:#fff}
+.intro .lede{margin:0 0 16px;font-size:15px;font-weight:500;color:#cfe0f0;max-width:68ch}
+.intro-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+@media(max-width:720px){.intro-grid{grid-template-columns:1fr}}
+.intro-grid div{font-size:13.5px;color:var(--mut);line-height:1.5}
+.intro-grid b{display:block;color:var(--yellow);font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;margin-bottom:5px}
 .card.done{opacity:.5;filter:saturate(.5)}
 .date{font-size:11.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--blue-b)}
 .title{font-size:18px;font-weight:800;letter-spacing:-.015em;margin:6px 0 9px;line-height:1.16;color:#fff}
@@ -151,6 +158,16 @@ a{color:var(--blue-b)}
     <h1>Keep it <span class="thin">weird.</span></h1>
     <p>Atomic Soup has gone weekly for the rest of 2026: seven sessions, one a week, closing w/c 14 December. Five are locked. Two are looking for a lead: <b>Friendship</b> and <b>Mysticism &amp; Belief</b>. Heart the ones you’re up for, then use <b>Get involved</b> to lead a session or bring a truth. Got an idea for a future session? Submit it below.</p>
     <p class="hive">Atomic Soup is <b>our</b> hive mind — and increasingly, our <span class="badge-ideas">Ideas Lab</span>.</p>
+  </div>
+
+  <div class="intro">
+    <h2>New to Atomic Soup?</h2>
+    <p class="lede">Atomic Soup is McCann’s weekly cultural intelligence session and creative accelerator, now in its seventh year. Each week we pick one slice of culture, bring the strangest and truest things we can find, and turn them into ideas brands can actually use.</p>
+    <div class="intro-grid">
+      <div><b>What happens</b>A host frames the topic. Contributors each bring a <i>truth</i>: a short, sharp observation about how people really live, the evidence behind it, and a “what if…?” provocation. Then the room riffs.</div>
+      <div><b>Who it’s for</b>Everyone, from any team, office, level or discipline. You don’t need to be a strategist. Lived experience, odd obsessions and late-night scrolling are all valid research.</div>
+      <div><b>What comes out</b>Truths and ideas go into a growing library of 100+ sessions, and feed pitches, client work and the Ideas Lab. Your truth could be the start of a campaign.</div>
+    </div>
   </div>
 
   <div class="notes">
